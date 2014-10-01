@@ -11,11 +11,11 @@
         <?php if (isset($description)) { ?><meta name="description" content="<?php echo $description; ?>" /><?php } ?>
         <?php if (isset($keywords)) { ?><meta name="keywords" content="<?php echo $keywords; ?>" /><?php } ?>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>css/style.css">
 
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="<?php echo base_url(); ?>js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>

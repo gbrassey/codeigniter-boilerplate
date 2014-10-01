@@ -1,5 +1,7 @@
 .DS_Store
 .sass-cache/
+httpdocs/css/*
+!httpdocs/css/.gitkeep
 */config/development
 */logs/log-*.php
 */logs/!index.html
